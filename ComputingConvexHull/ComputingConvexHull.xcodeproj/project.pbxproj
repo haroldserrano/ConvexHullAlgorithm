@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DCCE021D917DC200967915 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE011D917DC200967915 /* main.cpp */; };
+		03DCCE0A1D917E0A00967915 /* ConvexHullAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE081D917E0A00967915 /* ConvexHullAlgorithm.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE0E1D91808C00967915 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE0C1D91808C00967915 /* Logger.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE111D91809E00967915 /* Numerical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE0F1D91809E00967915 /* Numerical.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE141D91BE0C00967915 /* Vector3n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE121D91BE0C00967915 /* Vector3n.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE171D91BEB600967915 /* Model3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE151D91BEB600967915 /* Model3D.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE1A1D91C08D00967915 /* Point3n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE181D91C08D00967915 /* Point3n.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE1D1D91C09900967915 /* Segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE1B1D91C09900967915 /* Segment.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE201D91C0A400967915 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE1E1D91C0A400967915 /* Triangle.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE231D91C0B100967915 /* AssetLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE211D91C0B100967915 /* AssetLoader.cpp */; settings = {ASSET_TAGS = (); }; };
+		03DCCE291D923D3500967915 /* tinyxml2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03DCCE281D923D3500967915 /* tinyxml2.mm */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03DCCDFC1D917DC200967915 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03DCCDFE1D917DC200967915 /* ComputingConvexHull */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputingConvexHull; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DCCE011D917DC200967915 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03DCCE081D917E0A00967915 /* ConvexHullAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvexHullAlgorithm.cpp; sourceTree = "<group>"; };
+		03DCCE091D917E0A00967915 /* ConvexHullAlgorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvexHullAlgorithm.hpp; sourceTree = "<group>"; };
+		03DCCE0B1D917E2000967915 /* CommonProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
+		03DCCE0C1D91808C00967915 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		03DCCE0D1D91808C00967915 /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		03DCCE0F1D91809E00967915 /* Numerical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Numerical.cpp; sourceTree = "<group>"; };
+		03DCCE101D91809E00967915 /* Numerical.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Numerical.hpp; sourceTree = "<group>"; };
+		03DCCE121D91BE0C00967915 /* Vector3n.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3n.cpp; sourceTree = "<group>"; };
+		03DCCE131D91BE0C00967915 /* Vector3n.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector3n.hpp; sourceTree = "<group>"; };
+		03DCCE151D91BEB600967915 /* Model3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model3D.cpp; sourceTree = "<group>"; };
+		03DCCE161D91BEB600967915 /* Model3D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Model3D.hpp; sourceTree = "<group>"; };
+		03DCCE181D91C08D00967915 /* Point3n.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point3n.cpp; sourceTree = "<group>"; };
+		03DCCE191D91C08D00967915 /* Point3n.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point3n.hpp; sourceTree = "<group>"; };
+		03DCCE1B1D91C09900967915 /* Segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Segment.cpp; sourceTree = "<group>"; };
+		03DCCE1C1D91C09900967915 /* Segment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Segment.hpp; sourceTree = "<group>"; };
+		03DCCE1E1D91C0A400967915 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		03DCCE1F1D91C0A400967915 /* Triangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		03DCCE211D91C0B100967915 /* AssetLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssetLoader.cpp; sourceTree = "<group>"; };
+		03DCCE221D91C0B100967915 /* AssetLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AssetLoader.hpp; sourceTree = "<group>"; };
+		03DCCE241D9238E500967915 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		03DCCE271D923D3500967915 /* tinyxml2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml2.h; path = XMLParser/tinyxml2.h; sourceTree = "<group>"; };
+		03DCCE281D923D3500967915 /* tinyxml2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = tinyxml2.mm; path = XMLParser/tinyxml2.mm; sourceTree = "<group>"; };
+		03DCCE2F1D9246C900967915 /* blenderFile.ch */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = blenderFile.ch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DCCDFB1D917DC200967915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DCCDF51D917DC200967915 = {
+			isa = PBXGroup;
+			children = (
+				03DCCE001D917DC200967915 /* ComputingConvexHull */,
+				03DCCDFF1D917DC200967915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DCCDFF1D917DC200967915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DCCDFE1D917DC200967915 /* ComputingConvexHull */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DCCE001D917DC200967915 /* ComputingConvexHull */ = {
+			isa = PBXGroup;
+			children = (
+				03DCCE261D923D2400967915 /* TinyXML */,
+				03DCCE011D917DC200967915 /* main.cpp */,
+				03DCCE2F1D9246C900967915 /* blenderFile.ch */,
+				03DCCE081D917E0A00967915 /* ConvexHullAlgorithm.cpp */,
+				03DCCE091D917E0A00967915 /* ConvexHullAlgorithm.hpp */,
+				03DCCE0B1D917E2000967915 /* CommonProtocols.h */,
+				03DCCE0C1D91808C00967915 /* Logger.cpp */,
+				03DCCE0D1D91808C00967915 /* Logger.hpp */,
+				03DCCE0F1D91809E00967915 /* Numerical.cpp */,
+				03DCCE101D91809E00967915 /* Numerical.hpp */,
+				03DCCE121D91BE0C00967915 /* Vector3n.cpp */,
+				03DCCE131D91BE0C00967915 /* Vector3n.hpp */,
+				03DCCE151D91BEB600967915 /* Model3D.cpp */,
+				03DCCE161D91BEB600967915 /* Model3D.hpp */,
+				03DCCE181D91C08D00967915 /* Point3n.cpp */,
+				03DCCE191D91C08D00967915 /* Point3n.hpp */,
+				03DCCE1B1D91C09900967915 /* Segment.cpp */,
+				03DCCE1C1D91C09900967915 /* Segment.hpp */,
+				03DCCE1E1D91C0A400967915 /* Triangle.cpp */,
+				03DCCE1F1D91C0A400967915 /* Triangle.hpp */,
+				03DCCE211D91C0B100967915 /* AssetLoader.cpp */,
+				03DCCE221D91C0B100967915 /* AssetLoader.hpp */,
+				03DCCE241D9238E500967915 /* Constants.h */,
+			);
+			path = ComputingConvexHull;
+			sourceTree = "<group>";
+		};
+		03DCCE261D923D2400967915 /* TinyXML */ = {
+			isa = PBXGroup;
+			children = (
+				03DCCE271D923D3500967915 /* tinyxml2.h */,
+				03DCCE281D923D3500967915 /* tinyxml2.mm */,
+			);
+			name = TinyXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DCCDFD1D917DC200967915 /* ComputingConvexHull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DCCE051D917DC200967915 /* Build configuration list for PBXNativeTarget "ComputingConvexHull" */;
+			buildPhases = (
+				03DCCDFA1D917DC200967915 /* Sources */,
+				03DCCDFB1D917DC200967915 /* Frameworks */,
+				03DCCDFC1D917DC200967915 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComputingConvexHull;
+			productName = ComputingConvexHull;
+			productReference = 03DCCDFE1D917DC200967915 /* ComputingConvexHull */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DCCDF61D917DC200967915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = haroldserrano.com;
+				TargetAttributes = {
+					03DCCDFD1D917DC200967915 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 03DCCDF91D917DC200967915 /* Build configuration list for PBXProject "ComputingConvexHull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03DCCDF51D917DC200967915;
+			productRefGroup = 03DCCDFF1D917DC200967915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DCCDFD1D917DC200967915 /* ComputingConvexHull */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DCCDFA1D917DC200967915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DCCE1A1D91C08D00967915 /* Point3n.cpp in Sources */,
+				03DCCE171D91BEB600967915 /* Model3D.cpp in Sources */,
+				03DCCE021D917DC200967915 /* main.cpp in Sources */,
+				03DCCE0E1D91808C00967915 /* Logger.cpp in Sources */,
+				03DCCE111D91809E00967915 /* Numerical.cpp in Sources */,
+				03DCCE231D91C0B100967915 /* AssetLoader.cpp in Sources */,
+				03DCCE141D91BE0C00967915 /* Vector3n.cpp in Sources */,
+				03DCCE0A1D917E0A00967915 /* ConvexHullAlgorithm.cpp in Sources */,
+				03DCCE201D91C0A400967915 /* Triangle.cpp in Sources */,
+				03DCCE1D1D91C09900967915 /* Segment.cpp in Sources */,
+				03DCCE291D923D3500967915 /* tinyxml2.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03DCCE031D917DC200967915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03DCCE041D917DC200967915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03DCCE061D917DC200967915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03DCCE071D917DC200967915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DCCDF91D917DC200967915 /* Build configuration list for PBXProject "ComputingConvexHull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DCCE031D917DC200967915 /* Debug */,
+				03DCCE041D917DC200967915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DCCE051D917DC200967915 /* Build configuration list for PBXNativeTarget "ComputingConvexHull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DCCE061D917DC200967915 /* Debug */,
+				03DCCE071D917DC200967915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DCCDF61D917DC200967915 /* Project object */;
+}
